@@ -1,0 +1,17 @@
+.section-title{
+     gap: 20px;
+     margin-top: 100px;
+     margin-bottom: 30px;
+
+    h3{
+        color: #3D464D;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    span{
+        margin-top: 10px;
+        flex: 1;
+        border-bottom: 1px dashed #3D464D;
+    }
+}

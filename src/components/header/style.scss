@@ -1,0 +1,42 @@
+header{
+    background-color: #3D464D;
+    width: 100%;
+    max-width: 100%;
+
+    .header-box-left{
+        gap: 80px;
+    }
+}
+
+.menu-list{
+    gap: 25px;
+    
+
+    a{
+        color: white;
+        font-size: 18px;
+    }
+
+    a:hover{
+        color: #FFD333;
+    }
+}
+
+.icon-heart-my{
+    color: #FFD333;
+    font-size: 20px;
+}
+
+.icon-shopping-cart-my{
+    color: #FFD333;
+    font-size: 22px;
+}
+
+.header-shop-cart{
+    gap: 22px;
+
+    a{
+        color: white;
+
+    }
+}

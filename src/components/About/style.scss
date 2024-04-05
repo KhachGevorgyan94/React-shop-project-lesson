@@ -1,0 +1,20 @@
+.about-box{
+    gap: 40px;
+    width: 100%;
+
+    .icon-box{
+        width: 25%;
+        gap: 20px;
+        background-color: white;
+        min-height: 100px;
+
+        i{
+            color: #FFD333;
+            font-size: 50px;
+        }
+
+        span{
+            font-size: 24px;
+        }
+    }
+}

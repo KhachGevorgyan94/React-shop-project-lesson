@@ -1,0 +1,50 @@
+.product-box{
+    gap: 40px;
+    width: 100%;
+
+    .product-card-section{
+        width: calc(25% - 30px);
+
+        .product-description{
+            background-color: white;
+            min-height: 150px;
+            gap: 10px;
+
+            h3{
+                color: #3D464D;
+            }
+
+            .price-box{
+                gap: 10px;
+
+
+                .price{
+                    color: #3D464D;
+                    font-size: 20px;
+                }
+            
+            .newPrice{
+                text-decoration: line-through;
+                color: #6c757d;
+            }    
+
+            }
+
+            .review-box{
+                gap: 5px;
+
+                .star{
+                    color: #FFD333;
+                }
+
+                span{
+                    color: #3D464D;
+                }
+            }
+
+            
+             
+                
+            }
+        }
+    }

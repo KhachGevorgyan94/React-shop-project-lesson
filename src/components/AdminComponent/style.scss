@@ -1,0 +1,29 @@
+.admin-sidebar {
+  width: 240px;
+  background-color: #3c98f6;
+  height: 100vh;
+  padding: 30px 15px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    li {
+      padding: 5px 20px;
+      color: white;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: #61dafb;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.page-content{
+  width: calc(100% - 225px);
+  margin-left: 15px;
+  height: 100vh;
+}

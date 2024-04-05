@@ -1,0 +1,15 @@
+.category{
+    gap: 40px;
+    width: 100%;
+
+    .description-box{
+        background-color: white;
+        width: 300px;
+        padding-left: 20px;
+    }
+
+    .category-section{
+        width: calc(25% - 30px);
+    }
+
+}

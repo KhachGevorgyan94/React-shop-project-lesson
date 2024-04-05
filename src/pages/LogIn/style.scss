@@ -1,0 +1,20 @@
+.login-section{
+  height: calc(100vh  - 66px);
+  min-height: 600px;
+
+}
+
+.P-login-content{
+  max-width: 500px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid black;
+  padding: 20px;
+
+  gap: 25px;
+
+  h3{
+    text-align: center;
+    font-size: 30px;
+  }
+}

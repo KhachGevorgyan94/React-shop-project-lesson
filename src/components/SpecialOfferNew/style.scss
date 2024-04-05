@@ -1,0 +1,27 @@
+.offer-card{
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 80px;
+
+    .special-offer-new{
+        width: calc(50% - 20px);
+        
+        .offer-box{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            min-height: 300px;
+            gap: 10px;
+            color: white;
+
+            button{
+                background-color: #FFD333;
+                color: black;
+                max-width: 150px;
+                width: 100%;
+                height: 50px;
+            }
+        }
+    }
+}
